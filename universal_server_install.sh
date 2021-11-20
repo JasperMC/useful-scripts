@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Fetch package list and updates and install them
 sudo apt-get update
 sudo apt-get upgrade -y
 
@@ -24,7 +25,7 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
  
- # Install Kubernetes Agent
+# Install Kubernetes Agent
  
  
 # Install Portainer
